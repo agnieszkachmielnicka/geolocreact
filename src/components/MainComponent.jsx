@@ -128,7 +128,6 @@ class MainComponent extends React.Component {
                     <Route exact path='/get-geo-loc' element={<RequireAuth><GeoLocationComponent addGeoLocation={this.handleAddGeoLoc} search={this.state.search} getGeoLocation={this.state.getGeoLocation} geoData={this.state.geoData}/></RequireAuth>}></Route>
                     <Route exact path='/login' element={<LoginComponent handleLogin={this.handleLogin} />}></Route>
                     <Route exact path='/logout' element={<LogoutComponent handleLogout={this.handleLogout} />}></Route>
-                    {/* <Route exact path='/contact' element={< Contact />}></Route> */}
                 </Routes>
             </React.Fragment>)
     }

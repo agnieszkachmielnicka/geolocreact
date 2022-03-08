@@ -14,22 +14,4 @@ function AddComponent(props) {
     )
 }
 
-// class AddComponent extends React.Component {
-
-//     constructor(props) {
-//         super(props)
-//     }
-
-//     render() {
-
-//         const {addGeoLocation} = this.props
-
-        // return (
-        //     <div>
-        //         <Button onClick={addGeoLocation} positive>Add Location</Button>
-        //     </div>
-        // )
-//     }
-// }
-
 export default AddComponent;

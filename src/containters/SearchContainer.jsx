@@ -1,6 +1,6 @@
 import React from "react";
-import { Input, Button, Label } from 'semantic-ui-react'
-import { Link, useHistory } from 'react-router-dom';
+import { Input, Button } from 'semantic-ui-react'
+import { Link } from 'react-router-dom';
 
 class SearchContainer extends React.Component {
 
